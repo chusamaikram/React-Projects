@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: white;
+    font-family: 'Geist', 'Inter', sans-serif;
+    color: #141219;
+
+}
+
+.container {
+    max-width: 1369px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.hero-bg {
+    /* min-height: 100vh; */
+    background:
+        radial-gradient(600px circle at 20% 20%, rgba(59, 130, 246, 0.15), transparent 40%),
+        radial-gradient(700px circle at 80% 20%, rgba(59, 130, 246, 0.12), transparent 45%),
+        /* radial-gradient(600px circle at 50% 80%, rgba(59, 130, 246, 0.10), transparent 40%), */
+        #ffffff;
+}
+
+.slide-track {
+    animation: 10s linear infinite scroll;
+
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(0)
+    }
+
+    100% {
+        transform: translateX(-1150px)
+    }
+}
