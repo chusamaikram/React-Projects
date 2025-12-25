@@ -10,9 +10,9 @@ export default function Button({
     onClick,
 }) {
     const baseClasses = `
-    group bg-[#0160C9] text-white rounded-full text-sm font-semibold
-    flex items-center justify-center
-    ${disabled ? "opacity-50 pointer-events-none" : ""}
+    group bg-[#0160C9] text-white rounded-full text-sm font-semibold cursor-pointer
+    flex items-center justify-center 
+    ${disabled ? "opacity-50 pointer-events-none " : ""}
   `;
 
     const spacing =

@@ -28,7 +28,7 @@ export default function HomePage() {
     ]
     return (
         <>
-            <section className=" mt-[71px] py-20 bg-cover bg-center" style={{ backgroundImage: `url(${HeroBg})` }}>
+            <section className=" pt-40 pb-20 bg-cover bg-center" style={{ backgroundImage: `url(${HeroBg})` }}>
                 <div className="container">
                     <div className="flex flex-col items-center justify-center gap-3 ">
                         <div className="bg-[#F6F4F1] rounded-full py-1 px-2.5 flex items-center gap-2">

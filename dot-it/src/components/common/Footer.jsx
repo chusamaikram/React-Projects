@@ -77,7 +77,7 @@ export default function Footer() {
             <footer className="py-8" >
                 <div className="container">
                     <div className="grid grid-cols-2 sm:sm:flex flex-wrap lg:flex-nowrap items-start gap-8 sm:gap-12.5 ">
-                        <div className="col-span-2 lg:max-w-[500px] w-full flex flex-col items-start gap-4 text-[#131313]">
+                        <div className="col-span-2 lg:max-w-[480px] w-full flex flex-col items-start gap-4 text-[#131313]">
                             <img src={FooterLogo} alt="logo" width={102} height={36} />
                             <p className='text-base '>dot your i's and cross your t's</p>
                             <p className='text-start max-w-[200px]'> dot.it Technologies, Inc. Craig Ranch, McKinney, TX</p>

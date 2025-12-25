@@ -44,7 +44,7 @@ const Header = () => {
                 { title: "Request a Demo", path: "/request-a-demo" },
                 { title: "Pricing", path: "/pricing" },
                 { title: "Case Studies", path: "/case-studies" },
-                { title: "Blog", path: "/blog" },
+                { title: "Blog", path: "/blogs" },
                 { title: "Contact Us", path: "/contact-us" },
             ]
 
@@ -65,15 +65,16 @@ const Header = () => {
                                         <>
                                             {(() => {
                                                 const isResourcesActive = link.links.some(
-                                                    (item) => pathname === item.path
+                                                    (item) => pathname === item.path ||
+                                                        pathname.startsWith(item.path + "/")
                                                 );
 
                                                 return (
                                                     <>
                                                         <button
                                                             onClick={() => setOpen(!open)}
-                                                            className={`flex items-center gap-2 text-lg font-medium transition
-            ${isResourcesActive ? "text-[#0160C9]" : "hover:text-[#0160C9]"}`}
+                                                            className={`flex items-center gap-2 text-lg font-medium transition text-[#002B5A]
+                                                                   ${isResourcesActive ? "text-[#0160C9]" : "hover:text-[#0160C9]"}`}
                                                         >
                                                             Resources
                                                             <svg
@@ -110,7 +111,7 @@ const Header = () => {
                                                             <Link
                                                                 onClick={() => setOpen(false)}
                                                                 to={item.path}
-                                                                className={`block px-6 py-1 text-[15px] text-[#4B5563] hover:bg-gray-50 hover:text-[#0160C9] transition ${pathname===item.path ?"text-[#0160C9]":""}`}>
+                                                                className={`block px-6 py-1 text-[15px] text-[#4B5563] hover:bg-gray-50 hover:text-[#0160C9] transition ${pathname === item.path || pathname.startsWith(item.path + "/") ? "text-[#0160C9]" : ""}`}>
 
                                                                 {item.title}
                                                             </Link>
@@ -124,7 +125,7 @@ const Header = () => {
                                         :
                                         (
                                             <>
-                                                <Link className={`text-lg font-medium hover:text-[#0160c9] ${pathname === link.path ? 'text-[#0160c9]' : ''}`} to={link.path} >{link.name}</Link>
+                                                <Link className={`text-lg font-medium text-[#002B5A] hover:text-[#0160c9] ${pathname === link.path ? 'text-[#0160c9]' : ''}`} to={link.path} >{link.name}</Link>
 
                                                 <div className={`absolute top-0 left-2.5  rounded-full bg-[#0160c9] ${pathname === link.path ? "w-2 h-2" : "w-0 h-0"}`}></div>
                                             </>

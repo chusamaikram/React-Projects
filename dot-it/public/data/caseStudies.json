@@ -1,0 +1,212 @@
+{
+    "caseStudies": [
+        {
+            "id": "brandhive-advision",
+            "title": "Transforming Marketing Campaigns with AdVision for BrandHive",
+            "slug": "transforming-marketing-campaigns-brandhive",
+            "industry": "Telecommunication",
+            "category": "Marketing",
+            "thumbnail": "/images/brandhive.webp",
+            "shortDescription": "AI-powered marketing insights that helped BrandHive optimize campaigns and increase engagement.",
+            "publishedAt": "15 Jan 2025",
+            "readTime": "5 min",
+            "content": {
+                "challenge": "Before Dot.it, KeyData’s sales representatives were spending hours every week manually logging emails, meetings, and deal updates into their CRM. Important follow-ups slipped through the cracks, and collaboration between sales and customer success teams often required endless email threads.",
+                "problems": [
+                    "Time lost switching between inbox, CRM, and scheduling tools",
+                    "Missed follow-ups due to manual task tracking",
+                    "Inconsistent reporting and outdated CRM data"
+                ],
+                "solution": "KeyData implemented Dot.it to unify its entire sales process directly within the inbox. The platform’s AI automatically synced communication data, summarized conversations, and created deal updates in real time.",
+                "howDotItHelped": [
+                    "Inbox-as-CRM: Sales reps updated deals, scheduled meetings, and logged activities without leaving their inbox.",
+                    "AI Workflow Automation: Client conversations were summarized and next-step reminders were created automatically.",
+                    "Seamless CRM Sync: Direct integration with HubSpot ensured all contact data stayed accurate and up to date."
+                ],
+                "valueAdded": "Increased financial transparency and measurable ROI of 2.4x within the first year."
+            }
+        },
+        {
+            "id": "retailify-omnichannel-crm",
+            "title": "Enhancing Customer Experience with OmniChannel CRM for Retailify",
+            "slug": "enhancing-customer-experience-retailify",
+            "industry": "Automotive",
+            "category": "CRM",
+            "thumbnail": "/images/omni-channel.webp",
+            "shortDescription": "Retailify connected all customer touchpoints into a seamless omnichannel CRM experience.",
+            "publishedAt": "18 Apr 2025",
+            "readTime": "6 min",
+            "content": {
+                "challenge": "Customer data was scattered across online and offline systems, leading to inconsistent communication, delayed responses, and difficulty in analyzing customer behavior effectively.",
+                "problems": [
+                    "Fragmented customer records across multiple platforms",
+                    "Inconsistent customer interactions",
+                    "Delayed response times from support teams"
+                ],
+                "solution": "An omnichannel CRM unified all customer interactions into a single dashboard, allowing sales, marketing, and support teams to have complete visibility of customer journeys.",
+                "howDotItHelped": [
+                    "Unified Dashboard: All interactions, including online, offline, and social media, were consolidated.",
+                    "Automated Customer Insights: AI analytics provided actionable insights for personalization.",
+                    "Seamless Integration: Connected legacy systems with minimal disruption."
+                ],
+                "valueAdded": "Enhanced customer satisfaction and engagement while reducing support response time by 35%."
+            }
+        },
+        {
+            "id": "secureguard-finserve",
+            "title": "Boosting Cybersecurity with SecureGuard for FinServe Enterprises",
+            "slug": "boosting-cybersecurity-finserve",
+            "industry": "Finance",
+            "category": "Cybersecurity",
+            "thumbnail": "/images/cyber-security.webp",
+            "shortDescription": "AI-driven cybersecurity solution protecting enterprise-level financial systems.",
+            "publishedAt": "20 Aug 2025",
+            "readTime": "7 min",
+            "content": {
+                "challenge": "FinServe faced increasing cyber threats and compliance risks due to fragmented security protocols and growing regulatory demands.",
+                "problems": [
+                    "High vulnerability to cyber attacks",
+                    "Manual monitoring and threat detection",
+                    "Difficulty in maintaining compliance across multiple systems"
+                ],
+                "solution": "SecureGuard implemented AI-powered threat detection, real-time monitoring, and automated incident response protocols.",
+                "howDotItHelped": [
+                    "AI Threat Detection: Identified suspicious activities proactively.",
+                    "Real-time Monitoring: Continuous surveillance of network and endpoints.",
+                    "Automated Incident Response: Reduced response time and human error."
+                ],
+                "valueAdded": "Significantly reduced security incidents and ensured full regulatory compliance, increasing customer trust."
+            }
+        },
+        {
+            "id": "peoplesuite-nextgen",
+            "title": "Automating HR Tasks with PeopleSuite for NextGen Corp",
+            "slug": "automating-hr-tasks-nextgen",
+            "industry": "Market Research",
+            "category": "HR Automation",
+            "thumbnail": "/images/people-suit.webp",
+            "shortDescription": "NextGen Corp streamlined HR operations using PeopleSuite automation tools.",
+            "publishedAt": "12 Jun 2025",
+            "readTime": "4 min",
+            "content": {
+                "challenge": "Manual HR processes caused delays in onboarding, payroll, and performance evaluation, leading to employee dissatisfaction.",
+                "problems": [
+                    "Time-consuming administrative tasks",
+                    "Errors in payroll and record keeping",
+                    "Slow onboarding processes"
+                ],
+                "solution": "PeopleSuite automated core HR functions including onboarding, payroll, leave management, and performance tracking.",
+                "howDotItHelped": [
+                    "Automated Payroll: Reduced errors and improved accuracy.",
+                    "Streamlined Onboarding: Faster integration of new employees.",
+                    "Performance Analytics: Easy tracking and reporting of employee metrics."
+                ],
+                "valueAdded": "Reduced HR workload by 40%, accelerated onboarding, and improved employee satisfaction metrics."
+            }
+        },
+        {
+            "id": "greenbank-fintech",
+            "title": "Reducing Processing Time with FinTech Custom Solution for GreenBank",
+            "slug": "reducing-processing-time-greenbank",
+            "industry": "Manufacturing",
+            "category": "FinTech",
+            "thumbnail": "/images/greenbank.webp",
+            "shortDescription": "GreenBank reduced transaction processing time using a custom FinTech solution.",
+            "publishedAt": "09 Oct 2025",
+            "readTime": "6 min",
+            "content": {
+                "challenge": "GreenBank’s legacy systems caused delays in transaction processing, affecting customer satisfaction and operational efficiency.",
+                "problems": [
+                    "Slow manual processing of transactions",
+                    "High operational costs due to inefficiency",
+                    "Customer dissatisfaction with processing delays"
+                ],
+                "solution": "A modern FinTech platform automated workflows, enabled real-time transaction tracking, and integrated legacy data with modern systems.",
+                "howDotItHelped": [
+                    "Automated Transaction Processing: Reduced manual intervention.",
+                    "Real-Time Monitoring: Customers could track transactions instantly.",
+                    "Workflow Optimization: Streamlined internal banking operations."
+                ],
+                "valueAdded": "Transaction speed improved by 50%, operational costs dropped, and customer trust increased significantly."
+            }
+        },
+        {
+            "id": "adsmart-analytics",
+            "title": "Creating Custom AI Analytics Tools for AdSmart Media",
+            "slug": "custom-ai-analytics-adsmart",
+            "industry": "Legal",
+            "category": "AI Analytics",
+            "thumbnail": "/images/adsmart.webp",
+            "shortDescription": "AdSmart Media built custom AI analytics to better understand audience behavior.",
+            "publishedAt": "10 Nov 2025",
+            "readTime": "5 min",
+            "content": {
+                "challenge": "AdSmart lacked insights into audience engagement and ad performance, limiting their ability to optimize campaigns.",
+                "problems": [
+                    "Limited data visibility on campaign performance",
+                    "Inability to target ads effectively",
+                    "Time-consuming manual analysis"
+                ],
+                "solution": "Custom AI analytics dashboards provided actionable insights into audience behavior and campaign effectiveness.",
+                "howDotItHelped": [
+                    "Automated Analytics: Data collected and analyzed in real time.",
+                    "Audience Segmentation: Better targeting for campaigns.",
+                    "Performance Metrics: Visual dashboards to guide strategy."
+                ],
+                "valueAdded": "Improved ad targeting, increased ROI, and actionable insights for data-driven decision making."
+            }
+        },
+        {
+            "id": "routepro-logistics",
+            "title": "Streamlining Logistics with RoutePro: A Custom Delivery Tracking Tool",
+            "slug": "streamlining-logistics-routepro",
+            "industry": "Aviation",
+            "category": "Supply Chain",
+            "thumbnail": "/images/routepro.webp",
+            "shortDescription": "RoutePro optimized delivery routes and improved tracking efficiency.",
+            "publishedAt": "12 Dec 2025",
+            "readTime": "6 min",
+            "content": {
+                "challenge": "RoutePro clients faced delays due to lack of real-time visibility and inefficient route planning.",
+                "problems": [
+                    "No live tracking of deliveries",
+                    "Inefficient route planning increased fuel costs",
+                    "Delayed communication with drivers"
+                ],
+                "solution": "Implemented a custom tracking system with live updates, optimized routing algorithms, and centralized dashboards for logistics teams.",
+                "howDotItHelped": [
+                    "Real-Time Tracking: Live updates for deliveries and routes.",
+                    "Route Optimization: Minimized distance and fuel costs.",
+                    "Centralized Dashboard: Enhanced communication with drivers."
+                ],
+                "valueAdded": "Improved on-time deliveries by 30%, reduced operational costs, and increased customer satisfaction."
+            }
+        },
+        {
+            "id": "brightfuture-edulearn",
+            "title": "Revolutionizing Education Platforms with EduLearn for BrightFuture Academy",
+            "slug": "revolutionizing-education-brightfuture",
+            "industry": "Consulting",
+            "category": "EdTech",
+            "thumbnail": "/images/bright-future.webp",
+            "shortDescription": "BrightFuture Academy modernized learning using an AI-powered education platform.",
+            "publishedAt": "17 Sep 2025",
+            "readTime": "7 min",
+            "content": {
+                "challenge": "Traditional learning systems lacked engagement, personalization, and analytical tools to track student progress.",
+                "problems": [
+                    "Low student engagement with standard curricula",
+                    "Manual tracking of student performance",
+                    "Difficulty scaling learning experiences across multiple campuses"
+                ],
+                "solution": "EduLearn provided an AI-powered education platform delivering personalized learning, gamified experiences, and analytics dashboards for educators.",
+                "howDotItHelped": [
+                    "Personalized Learning: Students received AI-driven content based on performance.",
+                    "Engagement Tools: Gamified quizzes and interactive modules.",
+                    "Analytics Dashboard: Teachers could monitor progress and adapt curricula."
+                ],
+                "valueAdded": "Increased student engagement by 40%, improved learning outcomes, and created a scalable platform for future expansion."
+            }
+        }
+    ]
+}

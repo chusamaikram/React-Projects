@@ -12,7 +12,7 @@ export default function WhyDotPage() {
     ]
     return (
         <>
-            <section className="mt-[71px] py-20 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `URL(${whydotbg})` }}>
+            <section className="mt-[71px] py-20  bg-[#FAFAFA] ">
                 <div className="container">
                     <div className="flex flex-col gap-3 items-center justify-center ">
                         <h1 className="text-5xl leading-15 font-semibold max-w-[560px] text-center">The most <span className="text-[#0160C9]">intuitive</span> AI engagement platform</h1>
