@@ -8,19 +8,19 @@ export default function Footer() {
             links: [
                 {
                     name: "Plateform Overview",
-                    path: "#"
+                    path: "/product"
                 },
                 {
                     name: "Request a Demo",
-                    path: "#"
+                    path: "/request-a-demo"
                 },
                 {
                     name: "Why dot.it ",
-                    path: "#"
+                    path: "/why-dot-it"
                 },
                 {
                     name: "Pricing",
-                    path: "#"
+                    path: "/pricing"
                 },
 
             ]
@@ -30,11 +30,11 @@ export default function Footer() {
             links: [
                 {
                     name: "Careers",
-                    path: "#"
+                    path: "/careers"
                 },
                 {
                     name: "FAQ",
-                    path: "#"
+                    path: "/faq",
                 },
             ]
         },
@@ -43,15 +43,15 @@ export default function Footer() {
             links: [
                 {
                     name: "Contact",
-                    path: "#"
+                    path: "/contact-us"
                 },
                 {
                     name: "Privacey Policy",
-                    path: "#"
+                    path: "/privacey-policey"
                 },
                 {
                     name: "Terms of Services",
-                    path: "#"
+                    path: "/terms-of-services"
                 },
 
             ]
@@ -97,7 +97,13 @@ export default function Footer() {
                                 <ul className='flex flex-col items-start gap-2'>
                                     {section.links.map((link, index) => (
                                         <li key={index}>
-                                            <Link className='text-base leading-6 text-[#131313]' to={link.path}>{link.name}</Link>
+                                            {section.title === "Support & Sales" ? (
+                                                <a className='text-base leading-6 text-[#131313]' href={link.path} target='_blank'>{link.name}</a>
+
+                                            ) : (
+
+                                                <Link className='text-base leading-6 text-[#131313]' to={link.path}>{link.name}</Link>
+                                            )}
                                         </li>
                                     ))}
 
@@ -108,7 +114,7 @@ export default function Footer() {
                     </div>
                     <p className='mt-8 mb-2.5 text-base/6 text-[#A3A3A3] -tracking-[0.32px] text-start'>dot.it | ©2025</p>
                 </div>
-            </footer>
+            </footer >
         </>
     )
 }

@@ -3,28 +3,24 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function Button({
     children,
-    to,
-    type = "button", 
-    variant = "default", 
+    to,       // internal route
+    href,     // external link
+    type = "button",
+    variant = "default",
     disabled = false,
     onClick,
 }) {
     const baseClasses = `
     group bg-[#0160C9] text-white rounded-full text-sm font-semibold cursor-pointer
-    flex items-center justify-center 
-    ${disabled ? "opacity-50 pointer-events-none " : ""}
+    flex items-center justify-center
+    ${disabled ? "opacity-50 pointer-events-none" : ""}
   `;
 
-    const spacing =
-        variant === "arrow"
-            ? "p-2 gap-1"
-            : "py-2.5 px-5";
+    const spacing = variant === "arrow" ? "p-2 gap-1" : "py-2.5 px-5";
 
     const content = (
         <>
-            <span className={variant === "arrow" ? "px-3" : ""}>
-                {children}
-            </span>
+            <span className={variant === "arrow" ? "px-3" : ""}>{children}</span>
 
             {variant === "arrow" && (
                 <FaArrowRight
@@ -38,7 +34,21 @@ export default function Button({
         </>
     );
 
-    // 👉 Navigation button
+    // 👉 External link
+    if (href) {
+        return (
+            <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`${baseClasses} ${spacing}`}
+            >
+                {content}
+            </a>
+        );
+    }
+
+    // 👉 Internal navigation
     if (to) {
         return (
             <Link to={to} className={`${baseClasses} ${spacing}`}>
@@ -47,7 +57,7 @@ export default function Button({
         );
     }
 
-    // 👉 Form / normal button
+    // 👉 Normal button
     return (
         <button
             type={type}

@@ -6,7 +6,7 @@
             "slug": "transforming-marketing-campaigns-brandhive",
             "industry": "Telecommunication",
             "category": "Marketing",
-            "thumbnail": "/images/brandhive.webp",
+            "thumbnail": "/images/CaseStudies/brandhive.webp",
             "shortDescription": "AI-powered marketing insights that helped BrandHive optimize campaigns and increase engagement.",
             "publishedAt": "15 Jan 2025",
             "readTime": "5 min",
@@ -23,7 +23,23 @@
                     "AI Workflow Automation: Client conversations were summarized and next-step reminders were created automatically.",
                     "Seamless CRM Sync: Direct integration with HubSpot ensured all contact data stayed accurate and up to date."
                 ],
-                "valueAdded": "Increased financial transparency and measurable ROI of 2.4x within the first year."
+                "valueAdded": "Increased financial transparency and measurable ROI of 2.4x within the first year.",
+                "results": {
+                    "metrics": [
+                        {
+                            "label": "Revenue Impact",
+                            "value": "$500K"
+                        },
+                        {
+                            "label": "Time Saved",
+                            "value": "2.4x"
+                        },
+                        {
+                            "label": "Sales Cycle Speed",
+                            "value": "1.8x faster"
+                        }
+                    ]
+                }
             }
         },
         {
@@ -32,7 +48,7 @@
             "slug": "enhancing-customer-experience-retailify",
             "industry": "Automotive",
             "category": "CRM",
-            "thumbnail": "/images/omni-channel.webp",
+            "thumbnail": "/images/CaseStudies/omni-channel.webp",
             "shortDescription": "Retailify connected all customer touchpoints into a seamless omnichannel CRM experience.",
             "publishedAt": "18 Apr 2025",
             "readTime": "6 min",
@@ -49,7 +65,23 @@
                     "Automated Customer Insights: AI analytics provided actionable insights for personalization.",
                     "Seamless Integration: Connected legacy systems with minimal disruption."
                 ],
-                "valueAdded": "Enhanced customer satisfaction and engagement while reducing support response time by 35%."
+                "valueAdded": "Enhanced customer satisfaction and engagement while reducing support response time by 35%.",
+                "results": {
+                    "metrics": [
+                        {
+                            "label": "Revenue Impact",
+                            "value": "$500K"
+                        },
+                        {
+                            "label": "Time Saved",
+                            "value": "2.4x"
+                        },
+                        {
+                            "label": "Sales Cycle Speed",
+                            "value": "1.8x faster"
+                        }
+                    ]
+                }
             }
         },
         {
@@ -58,7 +90,7 @@
             "slug": "boosting-cybersecurity-finserve",
             "industry": "Finance",
             "category": "Cybersecurity",
-            "thumbnail": "/images/cyber-security.webp",
+            "thumbnail": "/images/CaseStudies/cyber-security.webp",
             "shortDescription": "AI-driven cybersecurity solution protecting enterprise-level financial systems.",
             "publishedAt": "20 Aug 2025",
             "readTime": "7 min",
@@ -75,7 +107,23 @@
                     "Real-time Monitoring: Continuous surveillance of network and endpoints.",
                     "Automated Incident Response: Reduced response time and human error."
                 ],
-                "valueAdded": "Significantly reduced security incidents and ensured full regulatory compliance, increasing customer trust."
+                "valueAdded": "Significantly reduced security incidents and ensured full regulatory compliance, increasing customer trust.",
+                "results": {
+                    "metrics": [
+                        {
+                            "label": "Revenue Impact",
+                            "value": "$500K"
+                        },
+                        {
+                            "label": "Time Saved",
+                            "value": "2.4x"
+                        },
+                        {
+                            "label": "Sales Cycle Speed",
+                            "value": "1.8x faster"
+                        }
+                    ]
+                }
             }
         },
         {
@@ -84,7 +132,7 @@
             "slug": "automating-hr-tasks-nextgen",
             "industry": "Market Research",
             "category": "HR Automation",
-            "thumbnail": "/images/people-suit.webp",
+            "thumbnail": "/images/CaseStudies/people-suit.webp",
             "shortDescription": "NextGen Corp streamlined HR operations using PeopleSuite automation tools.",
             "publishedAt": "12 Jun 2025",
             "readTime": "4 min",
@@ -101,7 +149,23 @@
                     "Streamlined Onboarding: Faster integration of new employees.",
                     "Performance Analytics: Easy tracking and reporting of employee metrics."
                 ],
-                "valueAdded": "Reduced HR workload by 40%, accelerated onboarding, and improved employee satisfaction metrics."
+                "valueAdded": "Reduced HR workload by 40%, accelerated onboarding, and improved employee satisfaction metrics.",
+                "results": {
+                    "metrics": [
+                        {
+                            "label": "Revenue Impact",
+                            "value": "$500K"
+                        },
+                        {
+                            "label": "Time Saved",
+                            "value": "2.4x"
+                        },
+                        {
+                            "label": "Sales Cycle Speed",
+                            "value": "1.8x faster"
+                        }
+                    ]
+                }
             }
         },
         {
@@ -110,7 +174,7 @@
             "slug": "reducing-processing-time-greenbank",
             "industry": "Manufacturing",
             "category": "FinTech",
-            "thumbnail": "/images/greenbank.webp",
+            "thumbnail": "/images/CaseStudies/greenbank.webp",
             "shortDescription": "GreenBank reduced transaction processing time using a custom FinTech solution.",
             "publishedAt": "09 Oct 2025",
             "readTime": "6 min",
@@ -127,7 +191,23 @@
                     "Real-Time Monitoring: Customers could track transactions instantly.",
                     "Workflow Optimization: Streamlined internal banking operations."
                 ],
-                "valueAdded": "Transaction speed improved by 50%, operational costs dropped, and customer trust increased significantly."
+                "valueAdded": "Transaction speed improved by 50%, operational costs dropped, and customer trust increased significantly.",
+                "results": {
+                    "metrics": [
+                        {
+                            "label": "Revenue Impact",
+                            "value": "$500K"
+                        },
+                        {
+                            "label": "Time Saved",
+                            "value": "2.4x"
+                        },
+                        {
+                            "label": "Sales Cycle Speed",
+                            "value": "1.8x faster"
+                        }
+                    ]
+                }
             }
         },
         {
@@ -136,7 +216,7 @@
             "slug": "custom-ai-analytics-adsmart",
             "industry": "Legal",
             "category": "AI Analytics",
-            "thumbnail": "/images/adsmart.webp",
+            "thumbnail": "/images/CaseStudies/adsmart.webp",
             "shortDescription": "AdSmart Media built custom AI analytics to better understand audience behavior.",
             "publishedAt": "10 Nov 2025",
             "readTime": "5 min",
@@ -153,7 +233,23 @@
                     "Audience Segmentation: Better targeting for campaigns.",
                     "Performance Metrics: Visual dashboards to guide strategy."
                 ],
-                "valueAdded": "Improved ad targeting, increased ROI, and actionable insights for data-driven decision making."
+                "valueAdded": "Improved ad targeting, increased ROI, and actionable insights for data-driven decision making.",
+                "results": {
+                    "metrics": [
+                        {
+                            "label": "Revenue Impact",
+                            "value": "$500K"
+                        },
+                        {
+                            "label": "Time Saved",
+                            "value": "2.4x"
+                        },
+                        {
+                            "label": "Sales Cycle Speed",
+                            "value": "1.8x faster"
+                        }
+                    ]
+                }
             }
         },
         {
@@ -162,7 +258,7 @@
             "slug": "streamlining-logistics-routepro",
             "industry": "Aviation",
             "category": "Supply Chain",
-            "thumbnail": "/images/routepro.webp",
+            "thumbnail": "/images/CaseStudies/routepro.webp",
             "shortDescription": "RoutePro optimized delivery routes and improved tracking efficiency.",
             "publishedAt": "12 Dec 2025",
             "readTime": "6 min",
@@ -179,7 +275,23 @@
                     "Route Optimization: Minimized distance and fuel costs.",
                     "Centralized Dashboard: Enhanced communication with drivers."
                 ],
-                "valueAdded": "Improved on-time deliveries by 30%, reduced operational costs, and increased customer satisfaction."
+                "valueAdded": "Improved on-time deliveries by 30%, reduced operational costs, and increased customer satisfaction.",
+                "results": {
+                    "metrics": [
+                        {
+                            "label": "Revenue Impact",
+                            "value": "$500K"
+                        },
+                        {
+                            "label": "Time Saved",
+                            "value": "2.4x"
+                        },
+                        {
+                            "label": "Sales Cycle Speed",
+                            "value": "1.8x faster"
+                        }
+                    ]
+                }
             }
         },
         {
@@ -188,7 +300,7 @@
             "slug": "revolutionizing-education-brightfuture",
             "industry": "Consulting",
             "category": "EdTech",
-            "thumbnail": "/images/bright-future.webp",
+            "thumbnail": "/images/CaseStudies/bright-future.webp",
             "shortDescription": "BrightFuture Academy modernized learning using an AI-powered education platform.",
             "publishedAt": "17 Sep 2025",
             "readTime": "7 min",
@@ -205,7 +317,23 @@
                     "Engagement Tools: Gamified quizzes and interactive modules.",
                     "Analytics Dashboard: Teachers could monitor progress and adapt curricula."
                 ],
-                "valueAdded": "Increased student engagement by 40%, improved learning outcomes, and created a scalable platform for future expansion."
+                "valueAdded": "Increased student engagement by 40%, improved learning outcomes, and created a scalable platform for future expansion.",
+                "results": {
+                    "metrics": [
+                        {
+                            "label": "Revenue Impact",
+                            "value": "$500K"
+                        },
+                        {
+                            "label": "Time Saved",
+                            "value": "2.4x"
+                        },
+                        {
+                            "label": "Sales Cycle Speed",
+                            "value": "1.8x faster"
+                        }
+                    ]
+                }
             }
         }
     ]

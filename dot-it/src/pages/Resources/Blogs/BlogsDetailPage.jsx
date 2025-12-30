@@ -1,33 +1,29 @@
-import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import SocialShare from "../case studies/SocialShare";
+import BlogsPage from "../../../components/blogs/Blogs";
 
-
-import DetailBg from "/images/CaseStudies/case-study-detail-bg.png"
-import SocialShare from "./SocialShare";
-import CaseStudies from "../../../components/case studies/CaseStudies";
-
-export default function CaseStudyDetail() {
+export default function BlogsDetailPage() {
     const { slug } = useParams();
-    const [caseStudy, setCaseStudy] = useState(null);
+    const [blog, setBlog] = useState();
 
     useEffect(() => {
-        fetch("/data/caseStudies.json")
+        fetch("/data/blogs.json")
             .then(res => res.json())
             .then(data => {
-                const found = data.caseStudies.find(
+                const found = data.blogs.find(
                     (item) => item.slug === slug
                 );
-                setCaseStudy(found);
+                setBlog(found);
             });
     }, [slug]);
 
-    if (!caseStudy) return <p>Loading...</p>;
+    if (!blog) return null;
     return (
         <>
-            <section className=" mt-[71px]" >
-                <div className="relative h-auto lg:h-[450px]  bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `URL(${caseStudy.thumbnail})` }}>
-                    <div className="absolute inset-0 bg-black/70"></div>
-                    <div className=" absolute left-20 bottom-20 flex flex-col items-start gap-3 justify-end">
+            <section className="mt-[71px] py-24">
+                <div className="container">
+                    <div className="flex flex-col items-center justify-center gap-3">
                         <div className="flex items-center gap-2">
                             <Link to="/" aria-label="home navigation">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,51 +31,53 @@ export default function CaseStudyDetail() {
                                 </svg>
 
                             </Link>
-                            <span className="text-[#A4A7AE]">/</span>
-                            <Link className="text-sm font-medium leading-5 text-[#A4A7AE]" to="/case-studies">Case Studies</Link>
-                            <span className="text-[#A4A7AE]">/</span>
-                            <span className="inline-block text-white max-w-[152px] overflow-hidden text-ellipsis whitespace-nowrap">{caseStudy.title}</span>
+                            <span className="text-[#535862]">/</span>
+                            <Link className="text-sm font-medium leading-5 text-[#535862]" to="/blogs">blogs</Link>
+                            <span className="text-[#535862]">/</span>
+                            <span className="inline-block text-[#535862] max-w-[152px] overflow-hidden text-ellipsis whitespace-nowrap">{blog.title}</span>
                         </div>
+                        <h1 className="max-w-[768px] text-center text-[48px] font-semibold leading-15 text-[#181D27] ">{blog.title}</h1>
 
-                        <h1 className="text-3xl md:text-5xl font-medium leading-8 md:leading-15 text-white max-w-[808px] text-start "> {caseStudy.title}</h1>
+                    </div>
+                    <div className="px-8">
+                        <div className="blog-detail relative rounded-lg mt-16 px-8 max-w-[1216px] w-full bg-center bg-no-repeat bg-cover overflow-hidden h-[540px]" style={{
+                            backgroundImage: `url(${blog.thumbnail})`,
+                        }}></div>
                     </div>
                 </div>
 
-
-
-
             </section>
-            <section className="py-20 ">
+            <section className="mb-24">
                 <div className="container">
-                    <div className="flex flex-col items-start gap-9.5 ">
+                    <div className="flex flex-col items-start justify-center gap-9.5 max-w-[720px] mx-auto">
                         <div>
                             <h2 className="text-2xl font-semibold text-[#373940]">Challenge:</h2>
-                            <p className="mt-3  text-base sm:text-lg leading-6 sm:leading-7 text-start text-[#777B8B]">{caseStudy.content.challenge}</p>
+                            <p className="mt-3  text-base sm:text-lg leading-6 sm:leading-7 text-start text-[#777B8B]">{blog.content.challenge}</p>
                         </div>
                         <div className="">
                             <h2 className="text-xl font-medium text-[#373940]">Key problems included: </h2>
                             <ul className="mt-3 flex flex-col items-start gap-2 list-disc">
-                                {caseStudy.content.problems.map((problem, index) => (
+                                {blog.content.problems.map((problem, index) => (
                                     <li key={index} className="text-base sm:text-lg leading-6 sm:leading-7 text-[#777B8B] ms-4 ">{problem}</li>
                                 ))}
                             </ul>
                         </div>
                         <div className="">
                             <h2 className="text-2xl font-semibold text-[#373940]">Solutions:</h2>
-                            <p className="mt-3  text-base sm:text-lg leading-6 sm:leading-7 text-start text-[#777B8B] ">{caseStudy.content.solution}</p>
+                            <p className="mt-3  text-base sm:text-lg leading-6 sm:leading-7 text-start text-[#777B8B] ">{blog.content.solution}</p>
 
                         </div>
                         <div className="">
                             <h2 className="text-2xl font-semibold text-[#373940]">How Dot.it Helped:</h2>
                             <ul className="mt-3 flex flex-col items-start gap-2 list-disc">
-                                {caseStudy.content.howDotItHelped.map((problem, index) => (
+                                {blog.content.howDotItHelped.map((problem, index) => (
                                     <li key={index} className="text-base sm:text-lg leading-6 sm:leading-7 text-[#777B8B] ms-4 ">{problem}</li>
                                 ))}
                             </ul>
 
                         </div>
                         <div className="grid sm:grid-cols-3 gap-8  max-w-[791px] w-full">
-                            {caseStudy.content.results.metrics.map((card, index) => (
+                            {blog.content.results.metrics.map((card, index) => (
                                 <div key={index} className="p-6 rounded-xl bg-[#FDFDFD] border border-[#F5F5F5] flex flex-col items-start gap-4 w-full">
                                     <h3 className="text-2xl font-semibold leading-8 text-[#014DA1]">{card.value}</h3>
                                     <span className="text-base leading-6 text-[#5D606D]">{card.label}</span>
@@ -89,11 +87,11 @@ export default function CaseStudyDetail() {
                         </div>
                         <div>
                             <h2 className="text-2xl font-semibold text-[#373940]">Value Added:</h2>
-                            <p className="mt-3  text-base sm:text-lg leading-6 sm:leading-7 text-start text-[#777B8B] ">{caseStudy.content.valueAdded}</p>
+                            <p className="mt-3  text-base sm:text-lg leading-6 sm:leading-7 text-start text-[#777B8B] ">{blog.content.valueAdded}</p>
                         </div>
                         <div className="mt-8 ">
-                            <h2 className="text-xl font-semibold text-[#373940] leading-7.5">Share Article</h2>
-                            <SocialShare caseStudy={caseStudy} />
+                            <h2 className="text-xl font-semibold text-[#373940] leading-7.5">Share Blog</h2>
+                            <SocialShare caseStudy={blog} />
 
                         </div>
                     </div>
@@ -101,8 +99,8 @@ export default function CaseStudyDetail() {
             </section>
             <section className="py-20">
                 <div className="container">
-                    <h2 className="text-4xl mb-10 leading-11 font-semibold text-center">Read More Case Studies</h2>
-                    <CaseStudies limit="4" />
+                    <h2 className="text-4xl mb-10 leading-11 font-semibold text-center">Read More Blogs</h2>
+                    <BlogsPage limit="3" />
                 </div>
             </section>
         </>

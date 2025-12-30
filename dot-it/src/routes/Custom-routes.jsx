@@ -8,6 +8,8 @@ import ContactUs from "../pages/Resources/contact";
 import CaseStudiesPage from "../pages/Resources/case studies/CaseStudyPage";
 import CaseStudyDetail from "../pages/Resources/case studies/CaseStudyDetails";
 import Blogspage from "../pages/Resources/Blogs";
+import BlogsDetailPage from "../pages/Resources/Blogs/BlogsDetailPage";
+import Careers from "../pages/career";
 
 
 export default function CustomRoutes() {
@@ -23,6 +25,8 @@ export default function CustomRoutes() {
                 <Route path="/case-studies" element={<CaseStudiesPage />} />
                 <Route path="/case-studies/:slug" element={<CaseStudyDetail />} />
                 <Route path="/blogs" element={<Blogspage />} />
+                <Route path="/blogs/:slug" element={<BlogsDetailPage />} />
+                <Route path="/careers" element={<Careers />} />
             </Routes>
         </>
     )

@@ -1,8 +1,10 @@
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CaseStudies from "../../../components/case studies/CaseStudies";
 import MainHeading from "../../../components/common/MainHeading";
 import Searchbar from "../../../components/case studies/Searchbar";
+import Pagination from "../../../components/common/Pagination";
+import FilterButtons from "../../../components/case studies/FilterButtons";
 const categories = [
     "All",
     "Finance",
@@ -17,10 +19,12 @@ const categories = [
 ];
 
 export default function CaseStudiesPage() {
+    const [page, setPage] = useState(1);
 
     const [searchTerm, setSearchTerm] = useState("");
 
     const [activeCategory, setActiveCategory] = useState("All");
+
 
 
     const handleClick = (category) => {
@@ -50,23 +54,23 @@ export default function CaseStudiesPage() {
                             searchTerm={searchTerm}
                             setSearchTerm={setSearchTerm} />
                     </div>
-                    <div className="mt-8 flex gap-4 border-b border-[#EDEDED] flex-wrap">
-                        {categories.map((category) => (
-                            <button
-                                key={category}
-                                onClick={() => handleClick(category)}
-                                className={`pb-3 px-1 cursor-pointer whitespace-nowrap text-base  transition-colors ${activeCategory === category
-                                    ? "text-[#005BAA] border-b-2 border-[#005BAA] font-semibold"
-                                    : "text-[#667085] font-medium hover:text-gray-800"
-                                    }`}
-                            >
-                                {category}
-                            </button>
-                        ))}
 
-                    </div>
+                    <FilterButtons
+                        categories={categories}
+                        handleClick={handleClick}
+                        activeCategory={activeCategory}
+                    />
 
-                    <CaseStudies activeCategory={activeCategory} searchTerm={searchTerm} />
+                    <CaseStudies
+                        activeCategory={activeCategory}
+                        searchTerm={searchTerm}
+                    />
+
+                    <Pagination
+                        currentPage={page}
+                        totalPages={10}
+                        onPageChange={setPage}
+                    />
 
 
 
