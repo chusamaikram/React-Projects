@@ -24,7 +24,7 @@ export default function HomeTabs({
                             </li>
                         ))}
                     </ul>
-                    <Button variant="arrow" to=""> Get Started</Button>
+                    <Button variant="arrow" href="https://tally.so/r/315L24"> Get Started</Button>
                 </div>
                 <div className="overflow-hidden rounded-lg">
                     <video className="w-full h-full object-cover" src={video} muted autoPlay loop preload="none"/>

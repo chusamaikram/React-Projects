@@ -17,7 +17,7 @@ export default function PreFooter() {
                             </svg>
                             <p className="text-sm font-medium text-[#535862]">100+ Early access members</p>
                         </div>
-                        <Button variant="arrow" to="">Get Started
+                        <Button variant="arrow" href="https://tally.so/r/315L24">Get Started
 
                         </Button>
 

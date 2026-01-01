@@ -113,7 +113,7 @@ export default function ProductPage() {
                             <h1 className="text-4xl sm:text-[40px] leading-11 sm:leading-[56px] font-semibold text-start text-[#011A35]">Managing workflows across multiple platforms is chaotic but not with <span className="text-[#0160C9]">dot.it</span> </h1>
                             <p className="text-base leading-6 text-[#012246] text-start">Transform your email into a powerful CRM workspace. Update deals, log activities, and surface insights without switching tabs. Save time, reduce errors, focus on what matters.</p>
                             <div className="mt-3">
-                                <Button variant="arrow" to="">Get Started</Button>
+                                <Button variant="arrow" href="https://tally.so/r/315L24">Get Started</Button>
                             </div>
                         </div>
                         <div>

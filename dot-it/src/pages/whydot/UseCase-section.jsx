@@ -67,7 +67,7 @@ export default function UseCaseSection() {
                     <div className="flex flex-col l text-white bg-cover bg-center rounded-lg p-5  sm:p-10 justify-end h-full min-h-[300px] sm:h-[629px] transition-all duration-500" style={{ backgroundImage: `URL(${Data[active].img})` }}>
                         <h3 className=" text-4xl leading-11 font-semibold">Built for Every Industry</h3>
                         <p className="font-normal text-base sm:text-lg leading-6 sm:leading-7 tracking-[-0.02em] pt-4 sm:max-w-[540px]">Start with dot.it and watch every email become an opportunity and every lead a seamless sale. Embrace the future of sales management.</p>
-                        <button className="w-fit mt-4 px-5 py-2.5 bg-white rounded-full text-sm font-semibold text-[#0160C9] flex items-center justify-center"><Link className="" to=''>View Use Case</Link></button>
+                        <button className="w-fit mt-4 px-5 py-2.5 bg-white rounded-full text-sm font-semibold text-[#0160C9] flex items-center justify-center"><Link className="" to='/case-studies'>View Use Case</Link></button>
                     </div>
                     <div className="grid grid-cols-1 ">
                         <div className="w-full">

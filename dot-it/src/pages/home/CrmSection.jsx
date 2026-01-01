@@ -55,7 +55,7 @@ export default function CrmSection() {
                         ))}
                     </div>
                     <div className='mt-8 flex items-center justify-center'>
-                        <Button variant='arrow' to="#">Get Started</Button>
+                        <Button variant='arrow' href="https://tally.so/r/315L24">Get Started</Button>
                     </div>
                 </div>
             </section>
