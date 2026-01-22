@@ -55,7 +55,7 @@ export default function SignupPage() {
                     <div>
                         <label className="inline-flex items-center cursor-pointer">
                             <input type="checkbox" value="" className="sr-only peer" />
-                            <div className="relative w-9 h-5 bg-[#087BB3] peer-focus:outline-none peer-focus:ring-0 dark:peer-focus:ring-brand-soft rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-buffer after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-brand"></div>
+                            <div className="relative w-9 h-4.75 bg-[#A0AEC0] peer-focus:outline-none peer-focus:ring-0 dark:peer-focus:ring-brand-soft rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-buffer after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-[#087BB3]"></div>
                             <span className="select-none ms-3 text-[12px] text-[#2D3748] leading-4.5">Remember me </span>
                         </label>
                     </div>

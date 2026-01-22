@@ -7,7 +7,7 @@ export const Ticket = ({ pathname }) => (
 
 
 export const Dashboard = ({ pathname }) => (
-    <svg className={`${pathname === '/' ? "fill-white" : "fill-[#63716E]"}`} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+    <svg className={`${pathname === '/dashboard' ? "fill-white" : "fill-[#63716E]"}`} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M3.125 3.75C3.125 3.40482 3.40482 3.125 3.75 3.125H8.75C9.09518 3.125 9.375 3.40482 9.375 3.75V8.75C9.375 9.09518 9.09518 9.375 8.75 9.375H3.75C3.40482 9.375 3.125 9.09518 3.125 8.75V3.75ZM4.375 4.375V8.125H8.125V4.375H4.375Z"  />
         <path fill-rule="evenodd" clip-rule="evenodd" d="M10.625 3.75C10.625 3.40482 10.9048 3.125 11.25 3.125H16.25C16.5952 3.125 16.875 3.40482 16.875 3.75V8.75C16.875 9.09518 16.5952 9.375 16.25 9.375H11.25C10.9048 9.375 10.625 9.09518 10.625 8.75V3.75ZM11.875 4.375V8.125H15.625V4.375H11.875Z"  />
         <path fill-rule="evenodd" clip-rule="evenodd" d="M3.125 11.25C3.125 10.9048 3.40482 10.625 3.75 10.625H8.75C9.09518 10.625 9.375 10.9048 9.375 11.25V16.25C9.375 16.5952 9.09518 16.875 8.75 16.875H3.75C3.40482 16.875 3.125 16.5952 3.125 16.25V11.25ZM4.375 11.875V15.625H8.125V11.875H4.375Z"  />
@@ -16,7 +16,7 @@ export const Dashboard = ({ pathname }) => (
 )
 
 export const Analytics = ({ pathname }) => (
-    <svg className={`${pathname === '/analytics' ? "stroke-white" : "stroke-[#63716E]"}`} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+    <svg className={`${pathname === '/' ? "stroke-white" : "stroke-[#63716E]"}`} xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
         <path d="M2.5 12.5002V14C2.5 14.9334 2.5 15.3998 2.68166 15.7563C2.84144 16.0699 3.09623 16.3254 3.40983 16.4852C3.766 16.6667 4.23249 16.6667 5.16409 16.6667H17.5002M2.5 12.5002V4.16669M2.5 12.5002L5.71116 9.82424L5.71382 9.82211C6.29472 9.33802 6.58573 9.09551 6.90129 8.99701C7.27406 8.88064 7.67559 8.89905 8.0363 9.04869C8.34208 9.17554 8.61021 9.44367 9.14647 9.97993L9.15185 9.9853C9.69643 10.5299 9.96944 10.8029 10.2801 10.9295C10.6478 11.0793 11.0571 11.0922 11.4339 10.9672C11.7534 10.8612 12.0452 10.6063 12.6286 10.0958L17.5 5.83335"  stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
 )

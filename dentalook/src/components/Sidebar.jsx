@@ -12,8 +12,8 @@ export default function Sidebar() {
 
     const SidebarItems = [
         { name: "Tickets", path: "/tickets", icon: <Ticket pathname={pathname} /> },
-        { name: "Dashboard", path: "/", icon: <Dashboard pathname={pathname} /> },
-        { name: "Analytics", path: "/analytics", icon: <Analytics pathname={pathname} /> },
+        { name: "Dashboard", path: "/dashboard", icon: <Dashboard pathname={pathname} /> },
+        { name: "Analytics", path: "/", icon: <Analytics pathname={pathname} /> },
         { name: "UserAudit", path: "/user-audit", icon: <UserAudit pathname={pathname} /> },
         { name: "Leaderboard", path: "/leaderboard", icon: <Leaderboard pathname={pathname} /> },
         { name: "Settings", path: "/settings", icon: <Settings pathname={pathname} /> },
@@ -22,7 +22,7 @@ export default function Sidebar() {
     return (
 
         <aside
-            className={`sticky top-25 z-10  min-h-screen py-8 px-4 transition-all duration-300 border-r border-gray-200 ${sidebarOpen ? "max-w-64 w-full" : "max-w-20"
+            className={`sticky top-25 z-10  min-h-[150vh] py-8 px-4 transition-all duration-300 border-r border-gray-200 ${sidebarOpen ? "max-w-64 w-full" : "max-w-20"
                 }`}
         >
 

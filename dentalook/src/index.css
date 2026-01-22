@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'Urbanist', 'Poppins' sans-serif;
+  font-family: 'Poppins', 'Urbanist', 'Roboto','DM Sans','Inter' sans-serif;
 }
 
 @theme inline {
@@ -129,4 +129,17 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+
+/* Hide scrollbar but allow scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE & Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }

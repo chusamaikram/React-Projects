@@ -6,14 +6,13 @@ export default function Landinglayout() {
     return (
         <>
             <Header />
-            <main>
-                <div className="relative flex items-start justify-between">
-                    <Sidebar />
-                    <div className="flex-1 flex flex-col overflow-hidden transition-all duration-300 ">
-                        <Outlet />
-                    </div>
+            <div className="relative flex items-start justify-between">
+                <Sidebar />
+
+                <div className="flex-1 flex flex-col overflow-hidden transition-all duration-300 ">
+                    <Outlet />
                 </div>
-            </main>
+            </div>
         </>
     )
 }
